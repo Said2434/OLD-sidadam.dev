@@ -104,7 +104,7 @@ const Home = () => (
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
-          >
+          
             My portfolio
           </Button>
         </Box>
