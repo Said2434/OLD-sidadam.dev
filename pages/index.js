@@ -99,14 +99,16 @@ const Home = () => (
   Open to Full-Time Opportunities
   </BioSection>
    
-            as={NextLink}
-            href="/ai_projects"
-            scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
-          
-            My portfolio
-          </Button>
+         <Button
+  as={NextLink}
+  href="/ai_projects"
+  scroll={false}
+  rightIcon={<ChevronRightIcon />}
+  colorScheme="teal"
+>
+  My portfolio
+</Button>
+
         </Box>
       </Section>
 
