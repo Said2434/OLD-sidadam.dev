@@ -22,7 +22,8 @@ import {
   IoLogoGithub,
   IoLogoLinkedin,
 } from 'react-icons/io5'
-import Image from 'next/image/'
+
+import Image from 'next/image'
 
 const Home = () => (
   <Layout>
@@ -98,19 +99,22 @@ const Home = () => (
   <BioSection>
   Open to Full-Time Opportunities
   </BioSection>
-   
-         <Button
-  as={NextLink}
-  href="/ai_projects"
-  scroll={false}
-  rightIcon={<ChevronRightIcon />}
-  colorScheme="teal"
->
-  My portfolio
-</Button>
 
+
+                <Box align="center" my={4}>
+          <Button
+            as={NextLink}
+            href="/ai_projects"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="teal"
+          >
+            My portfolio
+          </Button>
         </Box>
       </Section>
+              
+
 
       <Section delay={0.2}>
   <Heading as="h3" variant="section-title">
