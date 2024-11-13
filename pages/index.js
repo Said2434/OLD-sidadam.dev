@@ -73,19 +73,32 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
-        </Heading>
-        <Paragraph>
-          Hi 👋 I’m Saidov Saidazam, but you can call me Adam—because let’s face it, it’s way easier to pronounce! I’m a Computer Vision Developer who loves diving into data like it’s the latest Netflix series.
-        </Paragraph>
-        <Paragraph>
-        I am studying  at Sejong University in Korea. With a background in computer engineering, I specialize in making sense of complex data, building intelligent solutions, and occasionally convincing my code to cooperate. Proficient in Python and PyTorch, I’m here to solve real-world problems and have some fun along the way!
-        </Paragraph>
-        I’m actively looking to expand my career in AI development and data science, and I’m excited to solve real-world problems through technology.
-        <Paragraph>
-        </Paragraph>
-        <Box align="center" my={4}>
-          <Button
+          Bio
+       BioYear>Name:</BioYear>
+  <BioSection>
+  Adam
+  </BioSection>
+  <BioYear>Education:</BioYear>
+  <BioSection>
+  Sejong University
+  </BioSection>
+  <BioYear>Department:</BioYear>
+  <BioSection>
+  Computer Engineering
+  </BioSection>
+  <BioYear>Status:</BioYear>
+  <BioSection>
+  Close to Graduation
+  </BioSection>
+  <BioYear>Objective:</BioYear>
+  <BioSection>
+  Gain Hands-On Experience
+  </BioSection>
+  <BioYear>Employment Status:</BioYear>
+  <BioSection>
+  Open to Full-Time Opportunities
+  </BioSection>
+   
             as={NextLink}
             href="/ai_projects"
             scroll={false}
@@ -99,29 +112,34 @@ const Home = () => (
 
       <Section delay={0.2}>
   <Heading as="h3" variant="section-title">
-    Bio
+    Work
   </Heading>
-  <BioYear>2004</BioYear>
-  <BioSection>
-    Born in Andijan, Uzbekistan.
-  </BioSection>
+ 
   <BioYear>2019-2022</BioYear>
   <BioSection>
-    Participated in and won a few Computer Sci. national competitions.
+  3-Time Winner in National Computer Science Competitions 
   </BioSection>
-  <BioYear>2022</BioYear>
   <BioSection>
-    Got accepted to Computer Science major in Sejong University.
+  (Over 200 Participants)
   </BioSection>
   <BioYear>2023</BioYear>
   <BioSection>
-    Did an internship at Technaxis 
+  Internship at{" "}
+  <Link href="https://www.technaxis.com/" target="_blank">
+  Technaxis
+    </Link>
+  .
   </BioSection>
   <BioYear>2024</BioYear>
   <BioSection>
-    Participated in a Seoul Tech Impact Hackathon.
+  Participated in a{" "}
+  <Link href="https://www.seoultechimpact.com/about" target="_blank">
+     Seoul Tech Impact Hackathon
+  </Link>
+  .
   </BioSection>
-</Section>
+  </Section>
+
 
 
       <Section delay={0.3}>
