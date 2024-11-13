@@ -72,47 +72,36 @@ const Home = () => (
         </Box>
       </Box>
 
-      <Section delay={0.1}>
-        <Heading as="h3" variant="section-title">
-          Bio
-       <BioYear>Name:</BioYear>
-  <BioSection>
-  Adam
-  </BioSection>
+    <Section delay={0.1}>
+  <Heading as="h3" variant="section-title">
+    Bio
+  </Heading>
+  <BioYear>Name:</BioYear>
+  <BioSection>Adam</BioSection>
   <BioYear>Education:</BioYear>
-  <BioSection>
-  Sejong University
-  </BioSection>
+  <BioSection>Sejong University</BioSection>
   <BioYear>Department:</BioYear>
-  <BioSection>
-  Computer Engineering
-  </BioSection>
+  <BioSection>Computer Engineering</BioSection>
   <BioYear>Status:</BioYear>
-  <BioSection>
-  Close to Graduation
-  </BioSection>
+  <BioSection>Close to Graduation</BioSection>
   <BioYear>Objective:</BioYear>
-  <BioSection>
-  Gain Hands-On Experience
-  </BioSection>
+  <BioSection>Gain Hands-On Experience</BioSection>
   <BioYear>Employment Status:</BioYear>
-  <BioSection>
-  Open to Full-Time Opportunities
-  </BioSection>
+  <BioSection>Open to Full-Time Opportunities</BioSection>
 
+  <Box textAlign="center" my={4}>
+    <Button
+      as={NextLink}
+      href="/ai_projects"
+      scroll={false}
+      rightIcon={<ChevronRightIcon />}
+      colorScheme="teal"
+    >
+      My portfolio
+    </Button>
+  </Box>
+</Section>
 
-                <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="/ai_projects"
-            scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
-          >
-            My portfolio
-          </Button>
-        </Box>
-      </Section>
               
 
 
