@@ -28,18 +28,23 @@ import Image from 'next/image'
 const Home = () => (
 <Layout>
   <Container>
-    <Box display={{ md: 'flex' }} justifyContent="flex-start">
-      <Box flexGrow={1}>
+    <Box display="block" mt={4}> {/* Remove flexbox and add margin-top */}
+      <Box>
         <Heading as="h2" variant="page-title">
           Sid Adam
         </Heading>
         <p>Data Scientist/Computer Vision Engineer</p>
       </Box>
+
+      {/* Move Image to the top-left */}
       <Box
         flexShrink={0}
         mt={{ base: 4, md: 0 }}
-        ml={{ md: 0 }}  // Remove left margin to align it to the left
+        ml={{ base: 0, md: 0 }}  // Align to the left on all screen sizes
         textAlign="left"  // Align the image to the left
+        position="absolute"  // Position it to the top-left of the page
+        top="0"
+        left="0"
       >
         <Box
           borderColor="whiteAlpha.800"
@@ -62,6 +67,7 @@ const Home = () => (
     </Box>
   </Container>
 </Layout>
+
 <Layout>
 
 
