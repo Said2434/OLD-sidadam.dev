@@ -28,23 +28,14 @@ import Image from 'next/image'
 const Home = () => (
   <Layout>
     <Container>
-      <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        css={{ backdropFilter: 'blur(10px)' }}
-      >
-        Hello, I&apos;m a  Computer Vision Developer based in Korea!
-      </Box>
+    
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Sid Adam
           </Heading>
-          <p>Computer Vision Developer </p>
+          <p>CData Scientist/Computer Vision Engineer </p>
         </Box>
         <Box
           flexShrink={0}
